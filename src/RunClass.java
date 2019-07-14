@@ -13,7 +13,6 @@ public class RunClass {
         Set<Integer> set = new TreeSet<>(new Comparator<Integer>() {
             @Override
             public int compare(Integer i1, Integer i2) {
-
                 if(i1%2==0 && i2%2==1){
                     return -1;
                 }else if(i1%2==0 && i2%2==0){
@@ -35,9 +34,6 @@ public class RunClass {
         set.add(11);
         set.add(70);
         set.add(67);
-
-
         System.out.println(set);
-
     }
 }
